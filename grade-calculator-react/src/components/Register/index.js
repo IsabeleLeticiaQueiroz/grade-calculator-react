@@ -22,7 +22,7 @@ const Register = () => {
   return (
     <div className={styles.registerContainer}>
       <form className={styles.form} onSubmit={handleSubmit}>
-        <h2 className={styles.title}>Criar conta</h2>
+        <h2 className={styles.title}>Create account</h2>
 
         <input
           type="text"
@@ -55,7 +55,7 @@ const Register = () => {
         />
 
         <button type="submit" className={styles.registerBtn}>
-          CADASTRAR
+          Register
         </button>
       </form>
     </div>
