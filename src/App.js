@@ -4,6 +4,7 @@ import SplashScreen from "./components/SplashScreen";
 import Register from "./components/Register";
 import Login from "./components/Login";
 import Dashboard from "./components/Dashboard";
+import PrivateRoute from "./routes/privateRoute"; // 👈 aqui
 
 function App() {
   return (
@@ -12,7 +13,16 @@ function App() {
         <Route path="/" element={<SplashScreen />} />
         <Route path="/register" element={<Register />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/dashboard" element={<Dashboard />} />
+
+        {/* 🔒 Rota protegida */}
+        <Route
+          path="/dashboard"
+          element={
+            <PrivateRoute>
+              <Dashboard />
+            </PrivateRoute>
+          }
+        />
       </Routes>
     </Router>
   );

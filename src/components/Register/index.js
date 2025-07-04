@@ -47,7 +47,7 @@ const Register = () => {
         <input
           type="password"
           name="password"
-          placeholder="Senha"
+          placeholder="Password"
           value={form.password}
           onChange={handleChange}
           required
