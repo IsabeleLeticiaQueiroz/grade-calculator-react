@@ -1,0 +1,109 @@
+.container {
+  padding: 2rem 1rem;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+/* Wrapper para posicionar ações atrás */
+.cardWrapper {
+  position: relative;
+  margin-bottom: 1.5rem;
+  user-select: none;
+}
+
+/* Botões de ação atrás do card */
+.actions {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;      /* mesma altura do card */
+  display: flex;
+  gap: 0;            /* zero gap entre botões */
+  padding: 0;        /* remove padding para evitar espaços */
+  z-index: 1;
+}
+
+/* Botões editar e excluir */
+.editBtn, .deleteBtn {
+  border: none;
+  border-radius: 0;  /* sem arredondamento */
+  padding: 0;        /* remove padding para alinhamento perfeito */
+  width: 60px;       /* largura fixa, ajuste se quiser */
+  height: 100%;      /* mesma altura do card */
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  user-select: none;
+  display: flex;       /* centraliza o conteúdo do botão */
+  align-items: center;
+  justify-content: center;
+}
+
+/* Cores dos botões */
+.editBtn {
+  background: #FFDC9B;
+  color: white;
+}
+
+.deleteBtn {
+  background: #FF5773;
+  color: white;
+}
+
+/* Card que desliza */
+.card {
+  background: white;
+  border-radius: 0;   
+  padding: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+  border-bottom: 1px solid #ccc; 
+  border-top: 1px solid #ccc; 
+}
+
+
+
+.cardSwiped {
+  transform: translateX(-120px); 
+}
+
+.courseInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.courseName {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.universityName {
+  font-size: 0.9rem;
+  color: gray;
+}
+
+.averageSection {
+  text-align: right;
+}
+
+.averageValue {
+  font-size: 1.8rem;
+  color: #a7c2b5;
+  font-weight: bold;
+  margin: 0;
+}
+
+.averageLabel {
+  font-size: 0.85rem;
+  color: gray;
+}

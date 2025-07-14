@@ -4,7 +4,8 @@ import SplashScreen from "./components/SplashScreen";
 import Register from "./components/Register";
 import Login from "./components/Login";
 import Dashboard from "./components/Dashboard";
-import PrivateRoute from "./routes/privateRoute"; // 👈 aqui
+import CoursesPage from "./components/Course";
+import PrivateRoute from "./routes/privateRoute"; 
 
 function App() {
   return (
@@ -20,6 +21,14 @@ function App() {
           element={
             <PrivateRoute>
               <Dashboard />
+            </PrivateRoute>
+          }
+        />
+        <Route
+          path="/courses"
+          element={
+            <PrivateRoute>
+              <CoursesPage />
             </PrivateRoute>
           }
         />

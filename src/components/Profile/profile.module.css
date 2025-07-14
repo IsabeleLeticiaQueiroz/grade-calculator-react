@@ -1,0 +1,77 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  height: 100vh;
+  position: relative;
+}
+
+.headerBackground {
+  width: 100%;
+  height: 180px;
+  background: linear-gradient(180deg, #fca5f1, #c3cfe2);
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  position: absolute;
+  top: 0;
+  z-index: 0;
+}
+
+.profileWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  z-index: 1;
+}
+
+.imageContainer {
+  position: relative;
+  width: 120px;
+  height: 120px;
+}
+
+.profileImage {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid white;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.editIcon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: white;
+  border-radius: 50%;
+  padding: 6px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.editIcon span {
+  font-size: 16px;
+  color: orange;
+}
+
+.userInfo {
+  margin-top: 16px;
+  text-align: center;
+}
+
+.userInfo h3 {
+  margin: 8px 0 4px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.userInfo p {
+  margin: 0;
+  font-size: 14px;
+  color: #666;
+}
