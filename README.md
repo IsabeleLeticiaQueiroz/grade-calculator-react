@@ -27,7 +27,7 @@ With this app, you take control and:
 
 ## 🖼️ Preview
 
-![App preview](./iPhone16.png) <!-- ou link do Vercel se quiser -->
+![App preview](./a.png) <!-- ou link do Vercel se quiser -->
 
 ---
 
