@@ -1,7 +1,7 @@
 # 📊 GRADE CALCULATOR
 
 A simple and intuitive **grade calculator** that helps students **monitor their academic performance** independently.  
-With GradeTracker, you don’t have to wait for your teacher to release your grades — you can **simulate future scores** and find out **how much you need** to pass in each subject or assignment.
+With Grade Calculator, you don’t have to wait for your teacher to release your grades — you can **simulate future scores** and find out **how much you need** to pass in each subject or assignment.
 
 ---
 
@@ -10,7 +10,6 @@ With GradeTracker, you don’t have to wait for your teacher to release your gra
 - ✅ Track grades for multiple subjects
 - 🧠 Simulate future grades and remaining assignments
 - 📈 Instantly see your current average and how much is missing
-- 🔒 Your data stays on your device (no login required)
 - 📱 Responsive design (works on mobile and desktop)
 
 ---
