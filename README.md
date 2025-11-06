@@ -1,5 +1,8 @@
 # 📊 GRADE CALCULATOR
 
+[![Progress](https://progress-bar.dev/30/?title=Progresso)](https://progress-bar.dev)  
+*Status do Projeto: 30% Concluído*  
+
 A simple and intuitive **grade calculator** that helps students **monitor their academic performance** independently.  
 With Grade Calculator, you don’t have to wait for your teacher to release your grades — you can **simulate future scores** and find out **how much you need** to pass in each subject or assignment.
 
