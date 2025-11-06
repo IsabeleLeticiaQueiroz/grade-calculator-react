@@ -1,6 +1,6 @@
 # 📊 GRADE CALCULATOR
 
-![Progress](https://img.shields.io/badge/Progresso-30%25-hotpink)  
+![Progress](https://img.shields.io/badge/Progress-30%25-hotpink)  
 
 
 A simple and intuitive **grade calculator** that helps students **monitor their academic performance** independently.  
