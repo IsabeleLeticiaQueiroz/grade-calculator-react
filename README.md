@@ -1,6 +1,6 @@
 # 📊 GRADE CALCULATOR
 
-[![Progress](https://progress-bar.dev/30/?title=Progresso)](https://progress-bar.dev)  
+![Progress](https://img.shields.io/badge/Progresso-30%25-brightgreen)  
 *Status do Projeto: 30% Concluído*  
 
 A simple and intuitive **grade calculator** that helps students **monitor their academic performance** independently.  
